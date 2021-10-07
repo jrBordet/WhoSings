@@ -185,43 +185,6 @@ let gameSessionViewReducer: Reducer<GameViewState, GameViewAction, GameViewEnvir
 		value: \GameViewState.userLogin,
 		action: /GameViewAction.login,
 		environment: { $0.login }
-	),
-	Reducer<GameViewState, GameViewAction, GameViewEnvironment> { (state, action, env) -> [Effect<GameViewAction>] in
-		return []
-		switch action {
-		case let .game(game):
-			if case .next = game {
-				if let card = state.currentQuizCard {
-					Pretty.prettyPrint(card, option: Pretty.Option(prefix: ".next currentQuizCard", indentSize: 2))
-				}
-				Pretty.prettyPrint(state.points, option: Pretty.Option(prefix: ".next points", indentSize: 2))
-			}
-						
-			if case let .selectId(id) = game {
-				Pretty.prettyPrint(id, option: Pretty.Option(prefix: "selectedId", indentSize: 2))
-			}
-			
-			if case .start = game {
-				Pretty.prettyPrint("\(Date()) .start")
-			}
-			
-			return []
-		
-		case .bootstrap(_):
-			return []
-			
-		case let .login(login):
-			
-			if case let GameViewAction.login(LoginAction.username(username)) = action {
-				Pretty.prettyPrint(username, option: Pretty.Option(prefix: "login with Username", indentSize: 2))
-			}
-			
-			if case GameViewAction.login(LoginAction.login) = action {
-				Pretty.prettyPrint(Date(), option: Pretty.Option(prefix: "login toogle", indentSize: 2))
-			}
-			
-			return []
-		}
-	}
+	)
 )
 
