@@ -1,0 +1,5 @@
+strings:
+    inputs: WhoSings/Resources/en.lproj/Localizable.strings
+    outputs:
+      templateName: structured-swift4
+      output: WhoSings/Resources/Localizable.swift

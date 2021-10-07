@@ -1,0 +1,27 @@
+/* 
+  Localizable.strings
+ CoachTimer
+
+  Created by Jean Raphael Bordet on 17/06/2020.
+  
+*/
+
+"app.name" = "WhoSings";
+
+"app.whosings.notfound" = "not found";
+"app.whosings.submit" = "ok";
+
+"app.alert.username" = "enter username";
+"app.session.completed" = "Session Completed";
+"app.session.points" = "points";
+"app.session.dismiss" = "dismiss";
+
+"app.home.line" = "lyrics line...";
+"app.home.score" = "score";
+"app.home.logout" = "log out";
+"app.home.login" = "log in";
+"app.home.start" = "start";
+"app.home.next" = "next";
+
+"app.leaderboard.title" = "leaderboard";
+

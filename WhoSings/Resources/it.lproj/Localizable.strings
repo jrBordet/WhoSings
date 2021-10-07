@@ -1,0 +1,26 @@
+/* 
+  Localizable.strings
+  AlarmsDemo
+
+  Created by Jean Raphael Bordet on 17/06/2020.
+  
+*/
+
+"app.name" = "WhoSings";
+
+"app.whosings.notfound" = "non trovato";
+"app.whosings.submit" = "ok";
+
+"app.alert.username" = "inserisci username";
+"app.session.completed" = "Sessione Completata";
+"app.session.points" = "punti";
+"app.session.dismiss" = "chiudi";
+
+"app.home.line" = "canzone...";
+"app.home.score" = "punteggio";
+"app.home.logout" = "log out";
+"app.home.login" = "log in";
+"app.home.start" = "start";
+"app.home.next" = "prossimo";
+
+"app.leaderboard.title" = "leaderboard";

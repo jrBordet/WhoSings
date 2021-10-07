@@ -1,0 +1,103 @@
+PODS:
+  - Charts (3.6.0):
+    - Charts/Core (= 3.6.0)
+  - Charts/Core (3.6.0)
+  - Difference (0.4)
+  - Differentiator (5.0.0)
+  - RxBlocking (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxCocoa (6.2.0):
+    - RxRelay (= 6.2.0)
+    - RxSwift (= 6.2.0)
+  - RxComposableArchitecture (3.0.0):
+    - RxCocoa (~> 6.2.0)
+    - RxSwift (~> 6.2.0)
+    - SwiftSpinner (~> 2.1.0)
+  - RxComposableArchitectureTests (3.0.0):
+    - Difference (= 0.4)
+    - RxCocoa (~> 6.2.0)
+    - RxComposableArchitecture (= 3.0.0)
+    - RxSwift (~> 6.2.0)
+  - RxDataSources (5.0.0):
+    - Differentiator (~> 5.0)
+    - RxCocoa (~> 6.0)
+    - RxSwift (~> 6.0)
+  - RxRelay (6.2.0):
+    - RxSwift (= 6.2.0)
+  - RxSwift (6.2.0)
+  - RxTest (6.2.0):
+    - RxSwift (= 6.2.0)
+  - SnapKit (4.2.0)
+  - SnapshotTesting (1.7.2)
+  - SwiftCharts (0.6.5)
+  - SwiftLint (0.44.0)
+  - SwiftPrettyPrint (1.1.0)
+  - SwiftSpinner (2.1.0)
+
+DEPENDENCIES:
+  - Charts
+  - Difference
+  - RxBlocking
+  - RxCocoa
+  - RxComposableArchitecture (= 3.0.0)
+  - RxComposableArchitectureTests (= 3.0.0)
+  - RxDataSources
+  - RxSwift
+  - RxTest
+  - SnapKit (= 4.2.0)
+  - SnapshotTesting (~> 1.7.2)
+  - SwiftCharts (from `https://github.com/i-schuetz/SwiftCharts.git`)
+  - SwiftLint
+  - SwiftPrettyPrint (~> 1.1.0)
+
+SPEC REPOS:
+  https://github.com/jrBordet/Sources.git:
+    - RxComposableArchitecture
+    - RxComposableArchitectureTests
+  trunk:
+    - Charts
+    - Difference
+    - Differentiator
+    - RxBlocking
+    - RxCocoa
+    - RxDataSources
+    - RxRelay
+    - RxSwift
+    - RxTest
+    - SnapKit
+    - SnapshotTesting
+    - SwiftLint
+    - SwiftPrettyPrint
+    - SwiftSpinner
+
+EXTERNAL SOURCES:
+  SwiftCharts:
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+CHECKOUT OPTIONS:
+  SwiftCharts:
+    :commit: 3d011f67eccb1ffa622fbfccb1348eed80309ae8
+    :git: https://github.com/i-schuetz/SwiftCharts.git
+
+SPEC CHECKSUMS:
+  Charts: b1e3a1f5a1c9ba5394438ca3b91bd8c9076310af
+  Difference: d647f091010f05267885fdf758b885c6cfbf116e
+  Differentiator: e8497ceab83c1b10ca233716d547b9af21b9344d
+  RxBlocking: 0b29f7d2079109a8de49c411381bed7c33ef1eeb
+  RxCocoa: 4baf94bb35f2c0ab31bc0cb9f1900155f646ba42
+  RxComposableArchitecture: 43fab783116fb99a0e73644bdbd56f9afa3359d0
+  RxComposableArchitectureTests: cf3d83a822a7c95c1d91510a471b421b9789bc9c
+  RxDataSources: aa47cc1ed6c500fa0dfecac5c979b723542d79cf
+  RxRelay: e72dbfd157807478401ef1982e1c61c945c94b2f
+  RxSwift: d356ab7bee873611322f134c5f9ef379fa183d8f
+  RxTest: 0c692fa672b694373ba86d2b00033595297a2831
+  SnapKit: fe8a619752f3f27075cc9a90244d75c6c3f27e2a
+  SnapshotTesting: 8caa6661fea7c8019d5b46de77c16bab99c36c5c
+  SwiftCharts: 761c64373b11985ee8b6195b521c319aede0a9fc
+  SwiftLint: e96c0a8c770c7ebbc4d36c55baf9096bb65c4584
+  SwiftPrettyPrint: 3af0e8c4dca181184522a276e9f8c9ce30f77f22
+  SwiftSpinner: 0f15c006307f8d8bbac075638927ec1361b565d7
+
+PODFILE CHECKSUM: 712413481cf52cd63292f2c40cd350640fe49817
+
+COCOAPODS: 1.10.1

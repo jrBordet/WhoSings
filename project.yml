@@ -1,0 +1,57 @@
+name: WhoSings
+
+options:
+    bundleIdPrefix: com.bordet
+    createIntermediateGroups: true
+    indentWidth: 4
+    tabWidth: 4
+    deploymentTarget:
+        iOS: "10.0"
+configs:
+  Debug: debug
+  Mock: debug
+  Release: release
+settings:
+  configs:
+    debug:
+      CUSTOM_BUILD_SETTING: debug
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: DEBUG
+    mock:
+      CUSTOM_BUILD_SETTING: mock
+      SWIFT_ACTIVE_COMPILATION_CONDITIONS: MOCK
+    release:
+      CUSTOM_BUILD_SETTING: release
+      
+targets:
+  
+  WhoSings:
+    type: application
+    platform: iOS
+    deploymentTarget: 10.0
+    sources:
+        - path: WhoSings
+    scheme:
+        gatherCoverageData: true
+        environmentVariables:
+          BASE_URL: "https://randomuser.me/api/"
+        testTargets:
+          - name: WhoSingsTests
+            parallelizable: false
+            randomExecutionOrder: true
+
+  WhoSingsTests:
+    type: bundle.unit-test
+    platform: iOS
+    gatherCoverageData: true
+    deploymentTarget: 10.0
+    sources:
+        - path: WhoSingsTests
+    dependencies:
+        - target: WhoSings
+
+  WhoSingsMock:
+    type: application
+    platform: iOS
+    deploymentTarget: 10.0
+    sources:
+        - path: WhoSings
