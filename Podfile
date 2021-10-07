@@ -20,6 +20,7 @@ target 'WhoSings' do
    pod "SwiftPrettyPrint", "~> 1.1.0" #, :configuration => "Debug"
    pod 'SwiftCharts', :git => 'https://github.com/i-schuetz/SwiftCharts.git'
 	 pod 'Charts'
+	 pod 'Difference'
 
   target 'WhoSingsTests' do
     inherit! :search_paths
@@ -46,6 +47,7 @@ target 'WhoSingsMock' do
    pod 'RxDataSources'
    pod "SwiftPrettyPrint", "~> 1.1.0" #, :configuration => "Debug"
 	 pod 'Charts'
+	 pod 'Difference'
 
 end
 

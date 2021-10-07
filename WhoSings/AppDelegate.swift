@@ -40,16 +40,11 @@ func whoSingsLogging<Value, Action, Environment>(
 		let _value = value
 
 		let effects = reducer(&value, action, environment)
-				
+		
+		Pretty.prettyPrint(logDiff(oldState: _value, state: value))
+		
 		return [.fireAndForget {
-//			print("\n---")
-//
-//			Pretty.prettyPrint(Date())
-//			
-//			print("\n")
-//
-//			Pretty.prettyPrint(_value)
-			
+			print("\n---")
 			}] + effects
 	}
 }
