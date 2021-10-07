@@ -186,7 +186,8 @@ let gameSessionViewReducer: Reducer<GameViewState, GameViewAction, GameViewEnvir
 		action: /GameViewAction.login,
 		environment: { $0.login }
 	),
-	Reducer<GameViewState, GameViewAction, GameViewEnvironment> { (state, action, env) -> [Effect<GameViewAction>] in		
+	Reducer<GameViewState, GameViewAction, GameViewEnvironment> { (state, action, env) -> [Effect<GameViewAction>] in
+		return []
 		switch action {
 		case let .game(game):
 			if case .next = game {
