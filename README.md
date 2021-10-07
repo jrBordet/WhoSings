@@ -44,9 +44,9 @@ The benefits of doing this is that you will instantly unlock testability of your
 
 Every feature is testable in isolation and the power of the Composable Architecture is the ability to glue together two or more features in order to create a brand new one. 
 
-For example the [gameSessionViewReducer](https://github.com/jrBordet/WhoSings/blob/develop/WhoSings/Features/GameSession/GameViewSession/GameViewSession.swift) is build on the composition of the user login, bootstrap and the game session session. And even the [appReducer](https://github.com/jrBordet/WhoSings/blob/develop/WhoSings/AppWhoSings.swift) is build on the composition of the GameView and the Leaderboard.
+For example the [gameSessionViewReducer](https://github.com/jrBordet/WhoSings/blob/develop/WhoSings/Features/GameSession/GameViewSession/GameViewSession.swift) is build on the composition of the user login, bootstrap and the game session session. And even the [appReducer](https://github.com/jrBordet/WhoSings/blob/master/WhoSings/AppWhoSings.swift) is build on the composition of the GameView and the Leaderboard.
 
-This lead to an another concept: the __sharing state__. In fact, every time a session is completed, the collection of  sessions is updated and shared between the single Session and the Leaderboard, please refer to [AppState](https://github.com/jrBordet/WhoSings/blob/develop/WhoSings/AppWhoSings.swift)
+This lead to an another concept: the __sharing state__. In fact, every time a session is completed, the collection of  sessions is updated and shared between the single Session and the Leaderboard, please refer to [AppState](https://github.com/jrBordet/WhoSings/blob/master/WhoSings/AppWhoSings.swift)
 
 
 ### Engineering for Testability
