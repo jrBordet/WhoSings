@@ -1,5 +1,8 @@
 # WhoSings
 
+Goal of the game:
+
+Choose the artist that sings a specific line of lyrics, winning points for every correct choice.
 
 ## Installation
 
