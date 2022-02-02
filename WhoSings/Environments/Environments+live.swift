@@ -59,3 +59,12 @@ extension GameBootstrapEnvironment {
 		}
 	)
 }
+
+extension LoginEnvironment {
+	static var live = Self (
+		login: { username in
+			Effect.just(Result<String, GenericError>.success(username))
+				.delay(.milliseconds(280), scheduler: MainScheduler.instance)
+		}
+	)
+}

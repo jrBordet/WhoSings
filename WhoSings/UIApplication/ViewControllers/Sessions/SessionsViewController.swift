@@ -11,17 +11,6 @@ import RxComposableArchitecture
 import RxSwift
 import RxCocoa
 
-extension Reactive where Base: SessionsViewController {
-	var chart: Binder<[UserSession]> {
-		Binder(base) { base, sessions in
-			let bar = StackedBarChartViewController()
-			bar.sessions = sessions
-			
-			base.navigationController?.pushViewController(bar, animated: true)
-		}
-	}
-}
-
 class SessionsViewController: UIViewController, StoreViewController {
 	typealias Value = SessionsState
 	typealias Action = SessionAction
@@ -32,20 +21,6 @@ class SessionsViewController: UIViewController, StoreViewController {
 	
 	private let disposeBag = DisposeBag()
 	
-	@objc func chartTapped() {
-		guard let store = self.store else {
-			return
-		}
-		
-		store
-			.state
-			.distinctUntilChanged()
-			.take(1)
-			.map { $0.sessions }
-			.bind(to: self.rx.chart)
-			.disposed(by: disposeBag)
-	}
-	
 	override func viewDidLoad() {
 		super.viewDidLoad()
 		
@@ -54,11 +29,6 @@ class SessionsViewController: UIViewController, StoreViewController {
 		}
 		
 		self.title = NSLocalizedString("Leaderboard", comment: "")
-		
-		// Chart button
-		navigationItem.rightBarButtonItem = UIBarButtonItem(title: "chart", style: .plain, target: self, action: #selector(chartTapped))
-		let chart = UIBarButtonItem(title: "chart", style: .plain, target: self, action:  #selector(chartTapped))
-		navigationItem.rightBarButtonItems = [chart]
 		
 		self.view.addSubview(tableView)
 		

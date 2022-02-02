@@ -80,7 +80,7 @@ class UITests: XCTestCase {
 		let environment: GameViewEnvironment = .init(
 			bootstrap: gameSessionEnvironment,
 			game: GameEnvironment(),
-			login: .init()
+			login: .mock()
 		)
 		
 		let testStore = Store(
@@ -149,7 +149,7 @@ class UITests: XCTestCase {
 		let environment: GameViewEnvironment = .init(
 			bootstrap: gameSessionEnvironment,
 			game: GameEnvironment(),
-			login: .init()
+			login: .mock()
 		)
 		
 		let testStore = Store(
@@ -163,11 +163,4 @@ class UITests: XCTestCase {
 		
 		assertSnapshot(matching: scene, as: .image(on: .iPhoneX), record: record)
 	}
-	
-	func testChart() {
-		let scene = StackedBarChartViewController()
-		
-		assertSnapshot(matching: scene, as: .image(on: .iPhoneX), record: record)
-	}
-
 }

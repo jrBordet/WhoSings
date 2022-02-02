@@ -40,7 +40,7 @@ class GameViewTests: XCTestCase {
 		let environment: GameViewEnvironment = .init(
 			bootstrap: gameSessionEnvironment,
 			game: GameEnvironment(),
-			login: .init()
+			login: .mock()
 		)
 		
 		assert(
@@ -121,7 +121,7 @@ class GameViewTests: XCTestCase {
 		let environment: GameViewEnvironment = .init(
 			bootstrap: .mock(),
 			game: .mock(),
-			login: .init()
+			login: .mock()
 		)
 		
 		let quizCard_0 = QuizCard(
@@ -275,7 +275,7 @@ class GameViewTests: XCTestCase {
 		let environment: GameViewEnvironment = .init(
 			bootstrap: .mock(),
 			game: .mock(),
-			login: .init()
+			login: .mock()
 		)
 		
 		let quizCard_0 = QuizCard(

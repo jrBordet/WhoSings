@@ -42,8 +42,8 @@
 		F8111E8227058253007E0369 /* AppDelegate+State.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E8027058253007E0369 /* AppDelegate+State.swift */; };
 		F8111E8827058319007E0369 /* AppWhoSings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E8727058319007E0369 /* AppWhoSings.swift */; };
 		F8111E8927058319007E0369 /* AppWhoSings.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E8727058319007E0369 /* AppWhoSings.swift */; };
-		F8111EA027058A1E007E0369 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E9F27058A1E007E0369 /* GameSession.swift */; };
-		F8111EA127058A1E007E0369 /* GameSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E9F27058A1E007E0369 /* GameSession.swift */; };
+		F8111EA027058A1E007E0369 /* GameSession+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E9F27058A1E007E0369 /* GameSession+feature.swift */; };
+		F8111EA127058A1E007E0369 /* GameSession+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111E9F27058A1E007E0369 /* GameSession+feature.swift */; };
 		F8111EAB27058E25007E0369 /* GameBootstrapTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111EAA27058E25007E0369 /* GameBootstrapTests.swift */; };
 		F8111EBB2705B9A7007E0369 /* GameStateTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111EBA2705B9A7007E0369 /* GameStateTests.swift */; };
 		F8111EC12705BE0F007E0369 /* GameViewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8111EC02705BE0F007E0369 /* GameViewTests.swift */; };
@@ -53,17 +53,17 @@
 		F81865AF270ED61500DB1310 /* testGameSession.1.png in Resources */ = {isa = PBXBuildFile; fileRef = F81865AE270ED61500DB1310 /* testGameSession.1.png */; };
 		F8186716270F595200DB1310 /* Diff+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8186715270F595100DB1310 /* Diff+.swift */; };
 		F8186717270F595200DB1310 /* Diff+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F8186715270F595100DB1310 /* Diff+.swift */; };
-		F89C1F6E270728FC0035A5DC /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F6D270728FC0035A5DC /* Bootstrap.swift */; };
-		F89C1F6F270728FC0035A5DC /* Bootstrap.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F6D270728FC0035A5DC /* Bootstrap.swift */; };
+		F89C1F6E270728FC0035A5DC /* Bootstrap+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F6D270728FC0035A5DC /* Bootstrap+feature.swift */; };
+		F89C1F6F270728FC0035A5DC /* Bootstrap+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F6D270728FC0035A5DC /* Bootstrap+feature.swift */; };
 		F89C1F752707292B0035A5DC /* Models+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F742707292B0035A5DC /* Models+.swift */; };
 		F89C1F762707292B0035A5DC /* Models+.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F742707292B0035A5DC /* Models+.swift */; };
 		F89C1F7C270729530035A5DC /* Environments+live.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F7B270729530035A5DC /* Environments+live.swift */; };
 		F89C1F83270729900035A5DC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F82270729900035A5DC /* Utils.swift */; };
 		F89C1F84270729900035A5DC /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F82270729900035A5DC /* Utils.swift */; };
-		F89C1F8E270729C10035A5DC /* GameViewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F8D270729C10035A5DC /* GameViewSession.swift */; };
-		F89C1F8F270729C10035A5DC /* GameViewSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F8D270729C10035A5DC /* GameViewSession.swift */; };
-		F89C1FB027072B9A0035A5DC /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1FAF27072B9A0035A5DC /* UserLogin.swift */; };
-		F89C1FB127072B9A0035A5DC /* UserLogin.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1FAF27072B9A0035A5DC /* UserLogin.swift */; };
+		F89C1F8E270729C10035A5DC /* GameViewSession+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F8D270729C10035A5DC /* GameViewSession+feature.swift */; };
+		F89C1F8F270729C10035A5DC /* GameViewSession+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1F8D270729C10035A5DC /* GameViewSession+feature.swift */; };
+		F89C1FB027072B9A0035A5DC /* UserLogin+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1FAF27072B9A0035A5DC /* UserLogin+feature.swift */; };
+		F89C1FB127072B9A0035A5DC /* UserLogin+feature.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C1FAF27072B9A0035A5DC /* UserLogin+feature.swift */; };
 		F89C203427073BFE0035A5DC /* LoginTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C203327073BFE0035A5DC /* LoginTests.swift */; };
 		F89C21D027074F9D0035A5DC /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C21CF27074F9D0035A5DC /* SessionsViewController.swift */; };
 		F89C21D127074F9D0035A5DC /* SessionsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C21CF27074F9D0035A5DC /* SessionsViewController.swift */; };
@@ -89,10 +89,6 @@
 		F89C234C27088A950035A5DC /* SessionCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = F89C234827088A950035A5DC /* SessionCell.xib */; };
 		F89C2469270B049C0035A5DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F89C2468270B049C0035A5DC /* README.md */; };
 		F89C246A270B049C0035A5DC /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = F89C2468270B049C0035A5DC /* README.md */; };
-		F89C24E7270B560D0035A5DC /* BarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C24E5270B560D0035A5DC /* BarsViewController.swift */; };
-		F89C24E8270B560D0035A5DC /* BarsViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C24E5270B560D0035A5DC /* BarsViewController.swift */; };
-		F89C24F3270B77FC0035A5DC /* StackedBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C24F0270B77FC0035A5DC /* StackedBarChartViewController.swift */; };
-		F89C24F4270B77FC0035A5DC /* StackedBarChartViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C24F0270B77FC0035A5DC /* StackedBarChartViewController.swift */; };
 		F89C259B270C26E50035A5DC /* IntegrationTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C259A270C26E50035A5DC /* IntegrationTests.swift */; };
 		F89C26F7270D69CD0035A5DC /* GenericError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C26F6270D69CC0035A5DC /* GenericError.swift */; };
 		F89C26F8270D69CE0035A5DC /* GenericError.swift in Sources */ = {isa = PBXBuildFile; fileRef = F89C26F6270D69CC0035A5DC /* GenericError.swift */; };
@@ -199,7 +195,7 @@
 		F8111E5F2704C2DF007E0369 /* GetArtistChartRequestTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetArtistChartRequestTests.swift; sourceTree = "<group>"; };
 		F8111E8027058253007E0369 /* AppDelegate+State.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "AppDelegate+State.swift"; sourceTree = "<group>"; };
 		F8111E8727058319007E0369 /* AppWhoSings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppWhoSings.swift; sourceTree = "<group>"; };
-		F8111E9F27058A1E007E0369 /* GameSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameSession.swift; sourceTree = "<group>"; };
+		F8111E9F27058A1E007E0369 /* GameSession+feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameSession+feature.swift"; sourceTree = "<group>"; };
 		F8111EAA27058E25007E0369 /* GameBootstrapTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameBootstrapTests.swift; sourceTree = "<group>"; };
 		F8111EBA2705B9A7007E0369 /* GameStateTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameStateTests.swift; sourceTree = "<group>"; };
 		F8111EC02705BE0F007E0369 /* GameViewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewTests.swift; sourceTree = "<group>"; };
@@ -207,12 +203,12 @@
 		F818657F270ECED100DB1310 /* testGameSessionCard.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testGameSessionCard.1.png; sourceTree = "<group>"; };
 		F81865AE270ED61500DB1310 /* testGameSession.1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = testGameSession.1.png; sourceTree = "<group>"; };
 		F8186715270F595100DB1310 /* Diff+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Diff+.swift"; sourceTree = "<group>"; };
-		F89C1F6D270728FC0035A5DC /* Bootstrap.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Bootstrap.swift; sourceTree = "<group>"; };
+		F89C1F6D270728FC0035A5DC /* Bootstrap+feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Bootstrap+feature.swift"; sourceTree = "<group>"; };
 		F89C1F742707292B0035A5DC /* Models+.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Models+.swift"; sourceTree = "<group>"; };
 		F89C1F7B270729530035A5DC /* Environments+live.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Environments+live.swift"; sourceTree = "<group>"; };
 		F89C1F82270729900035A5DC /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
-		F89C1F8D270729C10035A5DC /* GameViewSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameViewSession.swift; sourceTree = "<group>"; };
-		F89C1FAF27072B9A0035A5DC /* UserLogin.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserLogin.swift; sourceTree = "<group>"; };
+		F89C1F8D270729C10035A5DC /* GameViewSession+feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "GameViewSession+feature.swift"; sourceTree = "<group>"; };
+		F89C1FAF27072B9A0035A5DC /* UserLogin+feature.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UserLogin+feature.swift"; sourceTree = "<group>"; };
 		F89C203327073BFE0035A5DC /* LoginTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginTests.swift; sourceTree = "<group>"; };
 		F89C21CF27074F9D0035A5DC /* SessionsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionsViewController.swift; sourceTree = "<group>"; };
 		F89C2242270839020035A5DC /* Mockable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Mockable.swift; sourceTree = "<group>"; };
@@ -229,8 +225,6 @@
 		F89C234727088A950035A5DC /* SessionCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionCell.swift; sourceTree = "<group>"; };
 		F89C234827088A950035A5DC /* SessionCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SessionCell.xib; sourceTree = "<group>"; };
 		F89C2468270B049C0035A5DC /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
-		F89C24E5270B560D0035A5DC /* BarsViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BarsViewController.swift; sourceTree = "<group>"; };
-		F89C24F0270B77FC0035A5DC /* StackedBarChartViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StackedBarChartViewController.swift; sourceTree = "<group>"; };
 		F89C259A270C26E50035A5DC /* IntegrationTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = IntegrationTests.swift; sourceTree = "<group>"; };
 		F89C26F6270D69CC0035A5DC /* GenericError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GenericError.swift; sourceTree = "<group>"; };
 		F89C27A4270DC2480035A5DC /* UITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UITests.swift; sourceTree = "<group>"; };
@@ -501,9 +495,9 @@
 			isa = PBXGroup;
 			children = (
 				F89C230927084EAB0035A5DC /* GameViewSession */,
-				F8111E9F27058A1E007E0369 /* GameSession.swift */,
-				F89C1F6D270728FC0035A5DC /* Bootstrap.swift */,
-				F89C1FAF27072B9A0035A5DC /* UserLogin.swift */,
+				F8111E9F27058A1E007E0369 /* GameSession+feature.swift */,
+				F89C1F6D270728FC0035A5DC /* Bootstrap+feature.swift */,
+				F89C1FAF27072B9A0035A5DC /* UserLogin+feature.swift */,
 			);
 			path = GameSession;
 			sourceTree = "<group>";
@@ -540,7 +534,6 @@
 		F89C22DC270849800035A5DC /* Sessions */ = {
 			isa = PBXGroup;
 			children = (
-				F89C2351270890200035A5DC /* Chart */,
 				F89C21CF27074F9D0035A5DC /* SessionsViewController.swift */,
 				F89C234727088A950035A5DC /* SessionCell.swift */,
 				F89C234827088A950035A5DC /* SessionCell.xib */,
@@ -551,18 +544,9 @@
 		F89C230927084EAB0035A5DC /* GameViewSession */ = {
 			isa = PBXGroup;
 			children = (
-				F89C1F8D270729C10035A5DC /* GameViewSession.swift */,
+				F89C1F8D270729C10035A5DC /* GameViewSession+feature.swift */,
 			);
 			path = GameViewSession;
-			sourceTree = "<group>";
-		};
-		F89C2351270890200035A5DC /* Chart */ = {
-			isa = PBXGroup;
-			children = (
-				F89C24F0270B77FC0035A5DC /* StackedBarChartViewController.swift */,
-				F89C24E5270B560D0035A5DC /* BarsViewController.swift */,
-			);
-			path = Chart;
 			sourceTree = "<group>";
 		};
 		F89C237E27098A0E0035A5DC /* Environments */ = {
@@ -1010,11 +994,10 @@
 			files = (
 				F89C22F527084DBF0035A5DC /* Environments+mock.swift in Sources */,
 				F8111E8927058319007E0369 /* AppWhoSings.swift in Sources */,
-				F89C1FB127072B9A0035A5DC /* UserLogin.swift in Sources */,
-				F89C24F4270B77FC0035A5DC /* StackedBarChartViewController.swift in Sources */,
+				F89C1FB127072B9A0035A5DC /* UserLogin+feature.swift in Sources */,
 				F8111F0B2706FEE0007E0369 /* ArtistCell.swift in Sources */,
-				F8111EA127058A1E007E0369 /* GameSession.swift in Sources */,
-				F89C1F8F270729C10035A5DC /* GameViewSession.swift in Sources */,
+				F8111EA127058A1E007E0369 /* GameSession+feature.swift in Sources */,
+				F89C1F8F270729C10035A5DC /* GameViewSession+feature.swift in Sources */,
 				F89C2243270839020035A5DC /* Mockable.swift in Sources */,
 				F89C234A27088A950035A5DC /* SessionCell.swift in Sources */,
 				F89C21D127074F9D0035A5DC /* SessionsViewController.swift in Sources */,
@@ -1025,12 +1008,11 @@
 				F89C1F84270729900035A5DC /* Utils.swift in Sources */,
 				F89C22D3270846FD0035A5DC /* UserSessions.swift in Sources */,
 				F89C1F762707292B0035A5DC /* Models+.swift in Sources */,
-				F89C1F6F270728FC0035A5DC /* Bootstrap.swift in Sources */,
+				F89C1F6F270728FC0035A5DC /* Bootstrap+feature.swift in Sources */,
 				A081A45D5159359229B1895B /* Localizable.swift in Sources */,
 				F89C230F27084EB90035A5DC /* GameViewSession+mock.swift in Sources */,
 				F8111C9427047A0C007E0369 /* HomeViewController.swift in Sources */,
 				F89C230427084E190035A5DC /* env+integration.swift in Sources */,
-				F89C24E8270B560D0035A5DC /* BarsViewController.swift in Sources */,
 				681C07E2B5143947E2757EBF /* Utils+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -1043,11 +1025,10 @@
 				8EC1104E92FE0F9313AB33FC /* AppDelegate.swift in Sources */,
 				F8111E8827058319007E0369 /* AppWhoSings.swift in Sources */,
 				F8186716270F595200DB1310 /* Diff+.swift in Sources */,
-				F89C24F3270B77FC0035A5DC /* StackedBarChartViewController.swift in Sources */,
-				F89C1FB027072B9A0035A5DC /* UserLogin.swift in Sources */,
+				F89C1FB027072B9A0035A5DC /* UserLogin+feature.swift in Sources */,
 				F8111F0A2706FEE0007E0369 /* ArtistCell.swift in Sources */,
-				F8111EA027058A1E007E0369 /* GameSession.swift in Sources */,
-				F89C1F8E270729C10035A5DC /* GameViewSession.swift in Sources */,
+				F8111EA027058A1E007E0369 /* GameSession+feature.swift in Sources */,
+				F89C1F8E270729C10035A5DC /* GameViewSession+feature.swift in Sources */,
 				F89C234927088A950035A5DC /* SessionCell.swift in Sources */,
 				F89C21D027074F9D0035A5DC /* SessionsViewController.swift in Sources */,
 				F89C26F7270D69CD0035A5DC /* GenericError.swift in Sources */,
@@ -1055,12 +1036,11 @@
 				F89C1F83270729900035A5DC /* Utils.swift in Sources */,
 				F89C22D2270846FD0035A5DC /* UserSessions.swift in Sources */,
 				F89C1F752707292B0035A5DC /* Models+.swift in Sources */,
-				F89C1F6E270728FC0035A5DC /* Bootstrap.swift in Sources */,
+				F89C1F6E270728FC0035A5DC /* Bootstrap+feature.swift in Sources */,
 				296EFC5298589C597DD9672F /* Localizable.swift in Sources */,
 				F89C1F7C270729530035A5DC /* Environments+live.swift in Sources */,
 				F8111C9327047A0C007E0369 /* HomeViewController.swift in Sources */,
 				F89C230327084E190035A5DC /* env+integration.swift in Sources */,
-				F89C24E7270B560D0035A5DC /* BarsViewController.swift in Sources */,
 				6EF0DFEC3E1DD056964BD7F4 /* Utils+Rx.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

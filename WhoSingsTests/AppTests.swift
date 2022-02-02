@@ -139,7 +139,7 @@ class AppTests: XCTestCase {
 			gameViewEnvironment: GameViewEnvironment.mock(
 				bootstrap: bootstrapEnv,
 				game: .mock(),
-				login: LoginEnvironment()
+				login: .mock()
 			)
 		)
 		

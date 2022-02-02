@@ -411,6 +411,7 @@ class HomeViewController: UIViewController, StoreViewController {
 						return
 					}
 
+					// MARK: - Username
 					store.send(.login(.username(username.text ?? "")))
 				}
 

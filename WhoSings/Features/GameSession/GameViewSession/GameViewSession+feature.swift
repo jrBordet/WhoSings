@@ -60,6 +60,25 @@ extension GameViewState {
 		sessions: [],
 		genericError: nil
 	)
+	
+	static var loggedIn = Self(
+		artists: [],
+		tracks: [],
+		isLoading: false,
+		tracksCount: 0,
+		bootstrapCompleted: false,
+		quizCard: [],
+		currentIndex: 0,
+		points: 0,
+		currentQuizCard: nil,
+		playerSelection: 0,
+		gameSessionCompleted: false,
+		isPlaying: false,
+		username: "teddy",
+		loggedIn: true,
+		sessions: [],
+		genericError: nil
+	)
 }
 
 extension GameViewState {
@@ -159,7 +178,7 @@ extension GameViewEnvironment {
 	static func mock(
 		bootstrap: GameBootstrapEnvironment = .mock(),
 		game: GameEnvironment = .init(),
-		login: LoginEnvironment = .init()
+		login: LoginEnvironment = .mock()
 	) -> Self {
 		.init(
 			bootstrap: bootstrap,

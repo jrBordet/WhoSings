@@ -14,18 +14,23 @@ extension GameViewEnvironment {
 	static var mock = Self(
 		bootstrap: .mock,
 		game: .init(),
-		login: .init()
+		login: .mock(
+			login: { username in
+				Effect.just(Result<String, GenericError>.success(username))
+					.delay(.milliseconds(280), scheduler: MainScheduler.instance)
+			}
+		)
 	)
 	
 	static var mockEmptyArtists = Self(
 		bootstrap: .mockEmptyArtists,
 		game: .init(),
-		login: .init()
+		login: .mock
 	)
 	
 	static var error = Self(
 		bootstrap: .error,
 		game: .init(),
-		login: .init()
+		login: .mock
 	)
 }

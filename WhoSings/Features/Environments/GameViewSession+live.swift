@@ -11,6 +11,6 @@ extension GameViewEnvironment {
 	static var live = Self(
 		bootstrap: .live,
 		game: .init(),
-		login: .init()
+		login: .live
 	)
 }

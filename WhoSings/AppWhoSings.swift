@@ -84,7 +84,8 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment>.combine(
 		value: \AppState.gameStateView,
 		action: /AppAction.game,
 		environment: { $0.gameViewEnvironment }
-	), 	genericErrorReducer.optional.pullback(
+	),
+	genericErrorReducer.optional.pullback(
 		value: \AppState.genericErrorView,
 		action: /AppAction.genericError,
 		environment: { _ in GenericErrorEnvironment() }

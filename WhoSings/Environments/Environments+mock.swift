@@ -75,3 +75,11 @@ extension GameBootstrapEnvironment {
 	)
 	
 }
+
+extension LoginEnvironment {
+	static var mock = Self (
+		login: { username in
+			Effect.just(Result<String, GenericError>.success(username))
+		}
+	)
+}
