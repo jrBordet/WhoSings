@@ -89,7 +89,8 @@ let appReducer = Reducer<AppState, AppAction, AppEnvironment>.combine(
 		value: \AppState.genericErrorView,
 		action: /AppAction.genericError,
 		environment: { _ in GenericErrorEnvironment() }
-	), Reducer<AppState, AppAction, AppEnvironment> { state, action, env -> [Effect<AppAction>] in
+	),
+	Reducer<AppState, AppAction, AppEnvironment> { state, action, env -> [Effect<AppAction>] in
 		if case AppAction.genericError(GenericErrorAction.dismiss) = action {
 			state.genericError = nil
 			return []

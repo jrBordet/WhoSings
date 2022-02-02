@@ -64,7 +64,7 @@ let loginReducer = Reducer<
 		state.username = text.isEmpty ? "bob" : text
 		
 		return [
-			//Effect.just(LoginAction.login)
+			Effect.just(LoginAction.login)
 		]
 		
 	case .login:
